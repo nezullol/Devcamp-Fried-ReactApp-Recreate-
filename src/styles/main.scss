@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(18, 29, 78);
+    .nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  }
+  
+
+    li{
+      cursor: pointer;
+      color: rgb(245, 245, 245);
+      text-decoration-style: none;
+      
+    }
+     a:link {
+      text-decoration: none;
+     }
+     a:active {
+      text-decoration: none;
+     }
+  .content {
+    min-height: 80vh;
+  }
+
+
+  
+.mainbody {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(109, 0, 0);
+
+    .top-nav-links {
+      margin-left: 50em;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+    }
+  }
+}
+  
+
+  
